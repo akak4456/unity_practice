@@ -4,3 +4,7 @@ git add --ignore-errors .
 git commit -m "commit"
 을 자동 실행함
 즉 자동 커밋을 의미함
+
+git fc
+는
+git ac에 github에 올리는 것을 포함함
