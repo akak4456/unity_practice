@@ -17,6 +17,7 @@ public class NumberWizard : MonoBehaviour
         Debug.Log("The lowest number you can pick is: "+min);
         Debug.Log("Tell me if your number is higher or lower than 500");
         Debug.Log("Push Up = Higher, Push Down = Lower, Push Enter = Correct");
+        max = max + 1;
     }
 
     // Update is called once per frame
