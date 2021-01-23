@@ -21,6 +21,7 @@ public class NumberWizard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+            Debug.Log("Up Arrow key was pressed.");
     }
 }
