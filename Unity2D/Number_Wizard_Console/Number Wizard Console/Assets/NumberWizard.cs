@@ -31,7 +31,7 @@ public class NumberWizard : MonoBehaviour
             Debug.Log("Down Arrow key was pressed.");
         }
 
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log("Enter key was pressed.");
         }
